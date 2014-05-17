@@ -1,7 +1,10 @@
 Semesternest::Application.routes.draw do
-  get "landing_pages/home"
-  get "details/home"
-  get "result_lists/home"
+  # get "landing_pages/home"
+  # get "details/home"
+  # get "result_lists/home"
+  get "/home", :to => 'landing_pages#home'
+  get "/results", :to => 'result_lists#home'
+  get "/details", :to => 'details#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
