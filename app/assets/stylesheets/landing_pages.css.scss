@@ -1,0 +1,36 @@
+// Place all the styles related to the landing_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.row {
+	min-height: 500px;
+
+}
+.background_pic {
+	background: url(landing.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#blurp {
+	background-color: rgba(14,10,7,0.8);
+	color: #fff;
+	padding-top: 30px;
+}
+#search_function {
+	h2 {
+		text-shadow: 3px 3px 5px #52403E;
+		color: #fff;
+		text-align: center;
+	}
+	.jumbotron {
+		padding: 50px 30px 100px;
+		margin-top: 30px;
+		border: 1px solid #373737;
+		border-radius: 8px;
+		background-color: rgba(14,10,7,0.6);
+		/*box-shadow: 0 0 5px #fff;*/
+	}
+}

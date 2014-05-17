@@ -1,0 +1,22 @@
+// Place all the styles related to the result_lists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#map {
+	border: 1px solid black;
+	min-height: 50px;
+}
+.mycontainer {
+	margin: 10px;
+	overflow: hidden;
+	#pic_sm {
+		border: 1px dotted black;
+		min-height: 30px;
+		padding: 10px;
+	}
+	#desc_sm {
+		border: 1px dotted black;
+		min-height: 30px;
+		padding: 10px;
+	}
+}
