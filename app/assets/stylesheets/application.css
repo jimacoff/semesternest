@@ -34,3 +34,10 @@ footer a:hover {
 .container {
 	max-width: 1080px;
 }
+#navbar_height {
+	min-height: 60px;
+	background-color: #FFFBFC;
+}
+#logo {
+	max-height: 40px;
+}
