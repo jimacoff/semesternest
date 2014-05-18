@@ -23,3 +23,9 @@ $(function() {
 $(function() {
   $('#datepicker2').datepicker();
 });
+
+$(function() {
+	$('#mybutton').click(function() {
+	alert("Congratulations! You booked your first stay.");
+	});
+});
