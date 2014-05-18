@@ -10,7 +10,8 @@
 	margin: 10px 0 10px 10px;
 	overflow: hidden;
 	background-color: #E6E6E6;
-	box-shadow: 1px 1px 5px #474747;
+	box-shadow: 1px 1px 7px #5C5C5C;
+	border-radius: 3px;
 	#pic_sm {
 		/*border: 1px dotted black;*/
 		min-height: 30px;
@@ -29,7 +30,7 @@
 	/*margin: 5px 0 20px;*/
 }
 .map {
-	box-shadow: 1px 1px 5px #474747;
+	box-shadow: 1px 1px 7px #5C5C5C;
 }
 #input_size {
 	min-width: 320px;

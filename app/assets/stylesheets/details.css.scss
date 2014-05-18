@@ -5,8 +5,15 @@
 .pic_sm {
 	max-width: 100%;
 	margin: 5px 0 20px;
-
 }
 .no_padding {
 	padding: 0 !important;
+}
+.boxes {
+	background-color: #E6E6E6;
+	box-shadow: 1px 1px 7px #5C5C5C;
+	border-radius: 3px;
+	margin: 10px 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
