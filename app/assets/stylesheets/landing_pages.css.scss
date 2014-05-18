@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.row {
-	/*min-height: 500px;*/
+.myrow {
+	min-height: 500px;
 
 }
 .background_pic {
@@ -55,4 +55,7 @@
 	.col-xs-12 {
 		text-align: center;
 	}
+}
+.enlarge {
+	font-size: 18px;
 }

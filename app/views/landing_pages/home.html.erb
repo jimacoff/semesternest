@@ -1,6 +1,6 @@
 <div class="background_pic">
   <div class-"container">
-    <div class="row" id="search_function">
+    <div class="row myrow" id="search_function">
       <div class="col-md-2 col-xs-1"></div>
       <div class="col-md-8 col-xs-10">
       	<h2>Find a furnished student home to rent</h2>
@@ -25,14 +25,15 @@
   <div class="row" id="blurp">
     <div class="container">
       <div class="col-md-12 col-xs-12">
-      <h4>What is SemesterNest?</h4>
-      <p>
+      <h3>What is SemesterNest?</h3>
+      <p class="enlarge">
         SemesterNest is an awesome new application to connect Student with landlord and Landlords with students.
       </p>
-      <p>
+      <p class="enlarge">
         The relationship between landlord and student can be though.
         Relax, we've got you covered!
       </p>
+      <br>
       </div>
     </div>
   </div>
@@ -41,13 +42,13 @@
   <div class="container">
     <h3>Read the experiences and stories of our users:</h3>
     <div class="col-md-4 col-xs-12">
-      <%= image_tag("portrait_1.png", alt: "Portrait 1") %>
+      <%= image_tag("portrait_1.png", alt: "Portrait 1", :class => "pic_md") %>
     </div>
     <div class="col-md-4 col-xs-12">
-      <%= image_tag("portrait_2.png", alt: "Portrait 2") %>
+      <%= image_tag("portrait_2.png", alt: "Portrait 2", :class => "pic_md") %>
     </div>
     <div class="col-md-4 col-xs-12">
-      <%= image_tag("portrait_3.png", alt: "Portrait 3") %>
+      <%= image_tag("portrait_3.png", alt: "Portrait 3", :class => "pic_md") %>
     </div>
   </div>
 </div>
