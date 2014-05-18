@@ -7,13 +7,22 @@
 	min-height: 500px;
 
 }
-.background_pic {
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+/*.background_pic {
 	background: url(landing.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}*/
 .button a{
 	color: #fff;
 	&:hover {
@@ -22,6 +31,7 @@
 	}
 }
 #blurp {
+	position: relative;
 	background-color: rgba(14,10,7,0.8);
 	color: #fff;
 	padding-top: 30px;
@@ -43,6 +53,7 @@
 	}
 }
 #portraits {
+	position: relative;
 	background-color: #E6E6E6;
 	h3 {
 		margin-top: 50px;
