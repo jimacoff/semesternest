@@ -4,7 +4,7 @@
 
 
 .row {
-	min-height: 500px;
+	/*min-height: 500px;*/
 
 }
 .background_pic {
@@ -13,6 +13,13 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.button a{
+	color: #fff;
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+	}
 }
 #blurp {
 	background-color: rgba(14,10,7,0.8);
@@ -24,6 +31,7 @@
 		text-shadow: 3px 3px 5px #52403E;
 		color: #fff;
 		text-align: center;
+		margin: 60px 0 40px;
 	}
 	.jumbotron {
 		padding: 50px 30px 100px;
@@ -32,5 +40,19 @@
 		border-radius: 8px;
 		background-color: rgba(14,10,7,0.6);
 		/*box-shadow: 0 0 5px #fff;*/
+	}
+}
+#portraits {
+	background-color: #E6E6E6;
+	h3 {
+		margin-top: 50px;
+		text-align: center;
+		text-shadow: 3px 3px 5px #fff;
+	}
+	img {
+		margin: 25px auto;
+	}
+	.col-xs-12 {
+		text-align: center;
 	}
 }

@@ -15,7 +15,7 @@
               <div class="form-group">
                 <input type="text" class="form-control" id="datepicker2" placeholder="Move out">
               </div>
-              <button type="submit" class="btn btn-success button">Search</button>
+              <button class="btn btn-success button"><%= link_to "Search", results_path %></button>
             </form>
       	</div>
       </div>
@@ -38,5 +38,16 @@
   </div>
 </div>
 <div class="row" id="portraits">
-  <%= link_to image_tag("portrait.png", alt: "Portraits") %>
+  <div class="container">
+    <h3>Read the experiences and stories of our users:</h3>
+    <div class="col-md-4 col-xs-12">
+      <%= image_tag("portrait_1.png", alt: "Portrait 1") %>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <%= image_tag("portrait_2.png", alt: "Portrait 2") %>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <%= image_tag("portrait_3.png", alt: "Portrait 3") %>
+    </div>
+  </div>
 </div>
