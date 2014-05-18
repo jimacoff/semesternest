@@ -1,42 +1,58 @@
 <div class="container">
-	<div class="col-md-4 col-xs-12">
-    <div id="map">
-      <img src="https://www.google.com/maps/place/Zurich/@47.3831506,8.532681,14z/data=!4m2!3m1!1s0x47900b9749bea219:0xe66e8df1e71fdc03">
+	<div class="col-md-5 col-xs-12 no_padding">
+    <div class="row" id="myrow">
+      <img class="pic_md map" src="assets/map.png">
     </div>
   </div>
-  <div class="col-md-8 col-xs-12">
+  <div class="col-md-7 col-xs-12 no_padding_right">
     <div class="mycontainer">
-      <div class="col-md-5 col-xs-6" id="pic_sm"></div>
+      <div class="col-md-5 col-xs-6 no_padding" id="pic_sm">
+        <%= link_to image_tag("room1.jpg", alt: "Room 1", :class => "pic_md"), details_path %>
+      </div>
+      <div class="col-md-7 col-xs-6" id="desc_sm">
+        <h4>Traditional Swiss flat in quiet neighbourhood</h4>
+        <p>5 bedroom apartment - private rooms</p>
+      </div>
+    </div>
+    <div class="mycontainer">
+      <div class="col-md-5 col-xs-6 no_padding" id="pic_sm">
+        <img class="pic_md" src="assets/room2.jpg">
+      </div>
+      <div class="col-md-7 col-xs-6" id="desc_sm">
+        <h4>3 bedroom apartment in student building</h4>
+        <p>3 bedroom apartment - private rooms</p>
+      </div>
+    </div>
+    <div class="mycontainer">
+      <div class="col-md-5 col-xs-6 no_padding" id="pic_sm">
+        <img class="pic_md" src="assets/room3.jpg">
+      </div>
+      <div class="col-md-7 col-xs-6" id="desc_sm">
+        <h4>Modern house with view to city center</h4>
+        <p>2 bedroom apartment - private room</p>
+      </div>
+    </div>
+    <div class="mycontainer">
+      <div class="col-md-5 col-xs-6 no_padding" id="pic_sm">
+        <img class="pic_md" src="assets/room4.jpg">
+      </div>
+      <div class="col-md-7 col-xs-6" id="desc_sm">
+        <h4>Nice apartment with beautiful view of Lake Zurich</h4>
+        <p>5 bedroom flat - private bathrooms</p>
+      </div>
+    </div>
+    <div class="mycontainer">
+      <div class="col-md-5 col-xs-6 no_padding"  id="pic_sm">
+        <img class="pic_md" src="assets/room5.jpg">
+      </div>
       <div class="col-md-7 col-xs-6" id="desc_sm">
         <h4>5 bedroom flat</h4>
       </div>
     </div>
     <div class="mycontainer">
-      <div class="col-md-5 col-xs-6" id="pic_sm"></div>
-      <div class="col-md-7 col-xs-6" id="desc_sm">
-        <h4>5 bedroom flat</h4>
+      <div class="col-md-5 col-xs-6 no_padding" id="pic_sm">
+        <img class="pic_md" src="assets/room6.jpg">
       </div>
-    </div>
-    <div class="mycontainer">
-      <div class="col-md-5 col-xs-6" id="pic_sm"></div>
-      <div class="col-md-7 col-xs-6" id="desc_sm">
-        <h4>5 bedroom flat</h4>
-      </div>
-    </div>
-    <div class="mycontainer">
-      <div class="col-md-5 col-xs-6" id="pic_sm"></div>
-      <div class="col-md-7 col-xs-6" id="desc_sm">
-        <h4>5 bedroom flat</h4>
-      </div>
-    </div>
-    <div class="mycontainer">
-      <div class="col-md-5 col-xs-6" id="pic_sm"></div>
-      <div class="col-md-7 col-xs-6" id="desc_sm">
-        <h4>5 bedroom flat</h4>
-      </div>
-    </div>
-    <div class="mycontainer">
-      <div class="col-md-5 col-xs-6" id="pic_sm"></div>
       <div class="col-md-7 col-xs-6" id="desc_sm">
         <h4>5 bedroom flat</h4>
       </div>

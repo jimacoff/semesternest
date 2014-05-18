@@ -1,8 +1,8 @@
 <div class="container">
-	<div class="col-md-8">
-	 	<div class="col-md-12">
+	<div class="col-md-12">
 	 		<h2>3 bedroom flat in a student building</h2>
 	 	</div>
+	<div class="col-md-8">
 	 	<div class="col-md-12">
 	 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
@@ -10,24 +10,26 @@
 			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
 			  </ol>
 
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
 			    <div class="item active">
-			      <img src="..." alt="...">
+			      <img src="assets/flat11.png" alt="0">
 			    </div>
-			    <div class="item active">
-			      <img src="..." alt="...">
+			    <div class="item">
+			      <img src="assets/flat12.png" alt="1">
 			    </div>
-			    <div class="item active">
-			      <img src="..." alt="...">
+			    <div class="item">
+			      <img src="assets/flat13.png" alt="2">
 			    </div>
-			    <div class="item active">
-			      <img src="..." alt="...">
+			    <div class="item">
+			      <img src="assets/flat14.png" alt="3">
 			    </div>
-			    <div class="item active">
-			      <img src="..." alt="...">
+			    <div class="item">
+			      <img src="assets/flat15.png" alt="4">
 			    </div>
 			  </div>
 
@@ -40,9 +42,70 @@
 			  </a>
 			</div>
 	 	</div>
-	 	<!-- <div class="col-md-12">
-	 		<h4>Features</h4>
-	 	</div> -->
+
+	 	<div class="col-md-12">
+	 		<div class="col-md-2 col-xs-2 no_padding">
+	 			<img class="pic_sm" src="assets/flat11-sm.png">
+	 		</div>
+	 		<div class="col-md-2 col-xs-2 no_padding">
+	 			<img class="pic_sm" src="assets/flat12-sm.png">
+	 		</div>
+	 		<div class="col-md-2 col-xs-2 no_padding">
+	 			<img class="pic_sm" src="assets/flat13-sm.png">
+	 		</div>
+	 		<div class="col-md-2 col-xs-2 no_padding">
+	 			<img class="pic_sm" src="assets/flat14-sm.png">
+	 		</div>
+	 		<div class="col-md-2 col-xs-2 no_padding">
+	 			<img class="pic_sm" src="assets/flat15-sm.png">
+	 		</div>
+	 	</div>
+	</div>
+
+	<div class="col-md-4 col-xs-12">
+	 	<div class="col-md-12">
+	 		<h4>Price</h4>
+	 		<p>From: 500 sfr.</p>
+	 		<p>To: 560 sfr.</p>
+	 	</div>
+	 	<div class="col-md-12">
+	 		<h4>Duration</h4>
+	 		<form class="navbar-form navbar-left" role="search">
+	              <div class="form-group">
+	                <input type="text" class="form-control" id="datepicker" placeholder="05/07/2014">
+	              </div>
+	              <div class="form-group">
+	                <input type="text" class="form-control" id="datepicker2" placeholder="05/31/2014">
+	              </div>
+	              <div class="btn btn-success button"><%= link_to "book", results_path %></div>
+
+	        </form>
+	 	</div>
+	 	<div class="col-md-12">
+	 		<h4>Rooms</h4>
+	 		<p>3 Rooms</p>
+	 		<div class="radio">
+			  <label>
+			    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			    Single bedroom (room 1)
+			  </label>
+			</div>
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			    Single bedroom (room 2)
+			  </label>
+			</div>
+			<div class="radio">
+			  <label>
+			    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option3">
+			    Double bedroom (room 3)
+			  </label>
+			</div>
+	 	</div>
+	</div>
+
+	<div class="col-md-8">
 	 	<div class="col-md-12">
 	 		<h4>Overview</h4>
 	 		<p><strong>Description</strong></p>
@@ -80,49 +143,6 @@
 	 	</div>
 	 	<div class="col-md-12">
 	 		<h4>Recommendations</h4>
-	 	</div>
-	</div>
-
-	<div class="col-md-4">
-	 	<div class="col-md-12">
-	 		<h4>Price</h4>
-	 		<p>From: 500 sfr.</p>
-	 		<p>To: 560 sfr.</p>
-	 	</div>
-	 	<div class="col-md-12">
-	 		<h4>Duration</h4>
-	 		<form class="navbar-form navbar-left" role="search">
-	              <div class="form-group">
-	                <input type="text" class="form-control" id="datepicker" placeholder="From">
-	              </div>
-	              <div class="form-group">
-	                <input type="text" class="form-control" id="datepicker2" placeholder="To">
-	              </div>
-	              <div class="btn btn-success button"><%= link_to "book", results_path %></div>
-
-	        </form>
-	 	</div>
-	 	<div class="col-md-12">
-	 		<h4>Rooms</h4>
-	 		<p>3 Rooms</p>
-	 		<div class="radio">
-			  <label>
-			    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-			    Single bedroom (room 1)
-			  </label>
-			</div>
-			<div class="radio">
-			  <label>
-			    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-			    Single bedroom (room 2)
-			  </label>
-			</div>
-			<div class="radio">
-			  <label>
-			    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option3">
-			    Double bedroom (room 3)
-			  </label>
-			</div>
 	 	</div>
 	</div>
 </div>

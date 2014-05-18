@@ -7,16 +7,36 @@
 	min-height: 50px;
 }
 .mycontainer {
-	margin: 10px;
+	margin: 10px 0 10px 10px;
 	overflow: hidden;
+	background-color: #E6E6E6;
+	box-shadow: 1px 1px 5px #474747;
 	#pic_sm {
-		border: 1px dotted black;
+		/*border: 1px dotted black;*/
 		min-height: 30px;
 		padding: 10px;
+
 	}
 	#desc_sm {
-		border: 1px dotted black;
+		/*border: 1px dotted black;*/
 		min-height: 30px;
 		padding: 10px;
 	}
 }
+.pic_md {
+	max-width: 100%;
+	min-width: 100%;
+	/*margin: 5px 0 20px;*/
+}
+.map {
+	box-shadow: 1px 1px 5px #474747;
+}
+#input_size {
+	min-width: 320px;
+}
+.no_padding_right {
+	padding-right: 0;
+}
+/*#myrow {
+	margin-left: -100px;
+}*/
