@@ -3,6 +3,9 @@ Semesternest::Application.routes.draw do
   # get "details/home"
   # get "result_lists/home"
   get "/home", :to => 'landing_pages#home'
+  get "/about", :to => 'landing_pages#about'
+  get "/news", :to => 'landing_pages#news'
+  get "/underconstruction", :to => 'landing_pages#underconstruction'
   get "/results", :to => 'result_lists#home'
   get "/details", :to => 'details#home'
 
