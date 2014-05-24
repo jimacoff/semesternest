@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.ui.all
+//= require bootstrap.js
 //= require turbolinks
 //= require_tree .
 
@@ -26,6 +27,6 @@ $(function() {
 
 $(function() {
 	$('#mybutton').click(function() {
-	alert("Congratulations! You booked your first stay.");
+	alert("Under construction. Bookings not possible yet!");
 	});
 });

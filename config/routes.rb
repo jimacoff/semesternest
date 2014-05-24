@@ -1,14 +1,19 @@
 Semesternest::Application.routes.draw do
+  resources :users
+  resources :sessions, :only => [:new, :create, :destroy]
   # get "landing_pages/home"
   # get "details/home"
   # get "result_lists/home"
+  get "/register", :to => 'users#new'
+  get "/forgot_password", :to => 'users#forgot_password'
   get "/home", :to => 'landing_pages#home'
   get "/about", :to => 'landing_pages#about'
   get "/news", :to => 'landing_pages#news'
   get "/underconstruction", :to => 'landing_pages#underconstruction'
   get "/results", :to => 'result_lists#home'
   get "/details", :to => 'details#home'
-
+  get "/signin", :to => 'sessions#new'
+  delete "/signout", :to => 'sessions#destroy'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

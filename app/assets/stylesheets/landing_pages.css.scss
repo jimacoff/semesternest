@@ -70,3 +70,25 @@
 .enlarge {
 	font-size: 18px;
 }
+.myjumbotron {
+		position: relative;
+		padding: 50px 30px 50px;
+		margin-top: 60px;
+		margin-bottom: 150px;
+		border: 1px solid #373737;
+		border-radius: 8px;
+		background-color: rgba(14,10,7,0.6);
+		/*box-shadow: 0 0 5px #fff;*/
+		h2, p {
+			color: white;
+			text-align: center;
+			a {
+				color: white;
+			}
+		}
+		a:hover {
+			text-decoration: none;
+			background-color: #6E6C6A;
+			color: #373737;
+		}
+	}

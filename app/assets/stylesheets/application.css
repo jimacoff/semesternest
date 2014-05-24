@@ -23,6 +23,10 @@ footer {
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
+footer p {
+	color: #999999;
+	padding-top: 20px;
+}
 footer a {
 	color: #999999;
 	display: inline-block;
